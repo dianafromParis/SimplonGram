@@ -165,6 +165,7 @@ nav {
 /*Lien unique*/
 .lienUniqueOC {
   color: #0088cc;
+  transition: linear 0.3s;
 }
 
 .lienUniqueOC:hover {
