@@ -32,7 +32,7 @@ nav {
 }
 
 .containerOC {
-  width: 70%;
+  width: 65%;
   display: flex;
   justify-content: space-between;
 }
@@ -40,10 +40,12 @@ nav {
 /*Logo Instagram*/
 .typoLogoOC {
   font-family: 'MasterOfBreak';
-  font-size: 20px;
+  font-size: 23px;
+  color: #003366;
 }
 
 .typoLogoOC:hover {
+  color: #003366;
   text-decoration:none;
 }
 
@@ -70,7 +72,9 @@ nav {
   background-color: #0088cc;
   color: #f2f2f2;
   font-size: 15px;
+  font-weight: bold;
   margin-right: 20px;
+  transition: linear 0.3s;
 }
 
 .instaBoutonOC:hover {
@@ -83,6 +87,8 @@ nav {
 .instaLogOC {
   color: #0088cc;
   font-size: 15px;
+  font-weight: bold;
+  transition: linear 0.3s;
 }
 
 .instaLogOC:hover {
@@ -95,18 +101,21 @@ nav {
 .instaUtilisateurOC {
   background-color: #FAFAFA;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .instaCenterOC {
-  width: 70%;
+  width: 100%;
   padding: 50px 0;
+
   display: flex;
   justify-content: center;
 }
 
 /*Image utilisateur*/
+.imageUtilisateurOC {
+  margin-right: 50px;
+}
+
 .imageOC {
   width: 150px;
   height: 150px;
@@ -115,7 +124,56 @@ nav {
 }
 
 /*Info Utilisateur*/
-.flexOC {
+.margeOC {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 17px;
+}
+
+.nameOC {
+  display: flex;
+  margin-right: 20px;
+}
+
+.nomUtilisateurOC {
+  margin: 0;
+}
+
+.symbolOC {
+  color: #0088cc;
+}
+
+/*Bouton abonnement*/
+.abonBoutonOC {
+  border: none;
+  border-radius: 10px;
+  background-color: #00cc00;
+  color: #f2f2f2;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-right: 20px;
+  transition: linear 0.3s;
+}
+
+.abonBoutonOC:hover {
+  background-color: #006600;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+/*Lien unique*/
+.lienUniqueOC {
+  color: #0088cc;
+}
+
+.lienUniqueOC:hover {
+  color: #004466;
+  text-decoration: none;
+}
+
+/*Autres infos*/
+.infoOC {
   display: flex;
   justify-content: space-between;
 }
