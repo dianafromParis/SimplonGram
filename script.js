@@ -1,5 +1,6 @@
 $(document).ready(function(){
 	var compteurBtnFollow = 0;
+	var compteurLike = 0;
 	    $('.envoyer').click(function(){
 	        var toAdd = $('.envoyer_com.nico').val();
 	        console.log(toAdd);
@@ -25,4 +26,19 @@ $(document).ready(function(){
     			$(".abonner").html('Abonné');
     		}
     	});
+
+    	$('.fa-heart').click(function() {
+    		compteurLike++;
+    		console.log(compteurLike + "compteur like");
+    		if (compteurLike %2 == 0) {
+    			$('.fa-heart').css("color" , "grey");
+   				$(".like").html("2035 like!");
+    		}
+    		else if (compteurLike % 2 != 0) {
+    			$('.fa-heart').css("color" , "red");
+    			$(".like").html("2036 like!");
+    		}
+    	});
+
+
 });
