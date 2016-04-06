@@ -18,11 +18,11 @@ $(document).ready(function(){
     		console.log(compteurBtnFollow);
     		if (compteurBtnFollow %2 == 0) {
     			$('.abonner').css("background-color" , "green");
-   	
+   				$(".abonner").html("S'abonner");
     		}
     		else if (compteurBtnFollow % 2 != 0) {
     			$('.abonner').css("background-color" , "red");
-    		
+    			$(".abonner").html('Abonné');
     		}
     	});
 });
