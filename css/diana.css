@@ -8,38 +8,39 @@ body {
 
 /*  ===================== MODAL BOX ========================*/
 .dt-modal-container {
-	position:fixed;
+	/*position: relative;*/
+	z-index: 9999;
 	background-color: white;
-	left:50%;
-	width: 70%;
+	width: 100%;
+	margin: 0 auto;
 	max-width:805px;
 	height: auto;
 	display: flex;
     	flex-direction: row;
     	justify-content: center;
 	color:#4B4F5D;
-	-webkit-transform:translate(-50%, -600%);
+	/*-webkit-transform:translate(-50%, -600%);
 	-ms-transform:translate(-50%,-600%);
-	transform: translate(-50%,-600%);    /*( X,Y)   -600% permet de cacher la div*/
+	transform: translate(-50%,-600%);    /*( X,Y)   -600% permet de cacher la div*/*/
 }
 
 /*  fond noir */
-.dt-modal:before{
+/*.dt-modal:before{
 	content:"";
 	position: fixed;
-	display:none; 
+	display:none;
 	background-color: rgba(0,0,0,0.55);
 	top:0;
 	left:0;
 	height: 100%;
 	width: 100%;
-} 
+}*/
 
-.dt-modal:target:before {
-	display:block; 
-}
+/*.dt-modal:target:before {
+	display:block;
+}*/
 
-.dt-modal:target .dt-modal-container  {
+/*.dt-modal:target .dt-modal-container  {
 	top:18%;
 	bottom:18%;
 	-webkit-transform:translate(-50%, 0%);
@@ -49,17 +50,17 @@ body {
 
 
 /* petite croix pour fermer*/
-.dt-cross:before {
+/*.dt-cross:before {
     color: white;
     content: "×";
-    display: block; 
+    display: block;
     font-size: 36px;
 
     line-height: 36px;
 
-}
+}*/
 
-.dt-cross {
+/*.dt-cross {
     background: transparent none repeat scroll 0 0;
     border: medium none;
     cursor: pointer;
@@ -70,7 +71,7 @@ body {
     right: 20px;
     top: 0;
     z-index: 2;
-}
+}*/
 
 #dt-modal-close {  } /*  Tip pour pas revenir au top de la page quand on clique sur le lien "#dt-modal-close" */
 
@@ -99,12 +100,12 @@ body {
 .img07 { background-image: url(../img/07.jpg); }
 .img08 { background-image: url(../img/08.jpg); }
 .img09 { background-image: url(../img/09.jpg); }
-.img010{ background-image: url(../img/10.jpg); }
-.img011{ background-image: url(../img/11.jpg); }
-.img012{ background-image: url(../img/12.jpg); }
-.img013{ background-image: url(../img/13.jpg); }
-.img014{ background-image: url(../img/14.jpg); }
-.img015{ background-image: url(../img/15.jpg); }
+.img0a{ background-image: url(../img/10.jpg); }
+.img0b{ background-image: url(../img/11.jpg); }
+.img0c{ background-image: url(../img/12.jpg); }
+.img0d{ background-image: url(../img/13.jpg); }
+.img0e{ background-image: url(../img/14.jpg); }
+.img0f{ background-image: url(../img/15.jpg); }
 
 
 .dt-scrollable{
@@ -118,7 +119,7 @@ body {
 
 .dt-comment {
 	width: 50%;
-	
+
 	justify-content: space-between;
 	align-items: center;
 	height: auto;
@@ -131,7 +132,9 @@ body {
 	padding-top: 25px;
 	border-bottom: 1px solid #F1F3F2;
 }
-
+.like {
+	width: 100%;
+}
 .dt-comment-footer {
 	width: 80%;
 	height: 70px;
@@ -141,8 +144,6 @@ body {
 }
 
 .dt-days {
-	position:fixed;
-	top:75px;
-	right:40px;
-	color:red;
+	font-style: italic;
+	color:#4A4A4A;
 }
