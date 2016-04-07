@@ -89,6 +89,7 @@ body {
 	background-size: cover;
 }
 
+/* les 15 images*/
 .img01 { background-image: url(../img/01.jpg); }
 .img02 { background-image: url(../img/02.jpg); }
 .img03 { background-image: url(../img/03.jpg); }
@@ -99,6 +100,11 @@ body {
 .img08 { background-image: url(../img/08.jpg); }
 .img09 { background-image: url(../img/09.jpg); }
 .img010{ background-image: url(../img/10.jpg); }
+.img011{ background-image: url(../img/11.jpg); }
+.img012{ background-image: url(../img/12.jpg); }
+.img013{ background-image: url(../img/13.jpg); }
+.img014{ background-image: url(../img/14.jpg); }
+.img015{ background-image: url(../img/15.jpg); }
 
 
 .dt-scrollable{
