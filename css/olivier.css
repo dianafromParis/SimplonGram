@@ -34,7 +34,12 @@ nav {
 .containerOC {
   width: 65%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.wrapOC {
+  margin: 10px 0;
 }
 
 /*Logo Instagram*/
@@ -120,8 +125,8 @@ nav {
 .instaCenterOC {
   width: 100%;
   padding: 50px 0;
-
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -201,7 +206,30 @@ nav {
 /*---------- ----------*\
        Media query
 \*---------- ----------*/
+@media screen and (max-width: 760px) {
+  .containerOC {
+    justify-content: center;
+  }
 
+  .imageUtilisateurOC {
+    margin: 10px 0;
+  }
+  
+  .instaInfoOC {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .imageOC {
+    width: 120px;
+    height: 120px;
+  }
+
+  .instaInfoOC {
+    padding: 0 10px;
+  }
+}
 
 
 
