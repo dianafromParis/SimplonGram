@@ -1,0 +1,147 @@
+
+/*CARDS*/
+
+img.jkimg {
+	width: 400px;
+	height: 290px;
+	
+}
+
+.thumbnail {
+	border: none;
+}
+
+img.jkimg:hover{
+	visibility: visible;
+
+}
+
+.container {
+	background-color: #FAFAFA;
+	width: 100%;
+	margin:0;
+}
+.row {
+	background-color: #FAFAFA;
+}
+
+.jkbuttonbck {
+	background-color: #FAFAFA;
+}
+
+.jkbutton {
+	
+	border:2px solid #4090db;
+	width:120px;
+	height: 120px;
+	text-align: center;
+	font-weight:bold;
+	padding: 3.3%;
+	border-radius:50%;
+	font-family: Helvetica, "Source Sans Pro";
+	font-size:11px;
+	line-height: 1.5;
+	margin:0 auto;
+	vertical-align: center;
+		
+}
+
+
+
+.jkbutton:hover {
+
+	border: 2px solid #3A6E9F;
+}
+
+.jkbutton a {
+	color:#4090db;
+	text-decoration: none;
+
+}
+
+.jkbutton a:hover {
+	color: #3A6E9F;
+	
+}
+	
+}
+
+
+/*FOOTER*/
+footer {
+	background-color:#FAFAFA;
+	
+}
+
+
+
+.jklinks {
+
+	display:flex;
+	justify-content: center;
+	margin-right: 20px;
+	margin-top: 20px;
+	color:#0D3C5F;
+	font-size:11px;
+	font-weight: bold;
+	font-family: Helvetica, "Source Sans Pro";
+
+}
+
+.jklinks ul {
+	margin-left: 100px;
+}
+
+.jklinks span {
+	color:#4B4F54;
+	margin-left: 200px;
+}
+.jklinks li a {
+
+
+color:#125688;
+}
+
+.jklinks li a:hover {
+
+
+color:#0d3c5f;
+}
+
+footer .jklinks ul li
+ {
+	display: inline-block;
+	margin-right: 20px;
+
+}
+
+li a:hover {
+	text-decoration: none;
+}
+
+.jkcopyright a {
+	display: inline-block;
+}
+
+select {
+
+	-webkit-appearance:none;
+	border:none;
+	background-color:#FAFAFA;
+	color:#125688;
+
+
+}
+
+select:hover {
+	color:#0d3c5f;
+}
+
+option:hover {
+	background-color: green;
+
+}
+
+#test {
+	display: none;
+}
