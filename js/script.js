@@ -61,11 +61,15 @@ $(document).ready(function(){
 			var current = e.target,
 					currentClass = current.className;
 					var test = currentClass.split('').reverse();
-					console.log(test);
 					var firstChar = test[0];
-					console.log('img0' + firstChar)
 			$('.ui.basic.modal').modal('show');
 			$('.dt-picture').addClass('img0'+ firstChar);
 		});
-
+		$('.fa-ellipsis-h').click(function(){
+			$('.user-card').toggleClass('is_open');
+		});
+		$('.fa-plus').click(function(){
+			$('.social-links').toggleClass('is_opened');
+			$(this).toggleClass('rotated');
+		});
 });
