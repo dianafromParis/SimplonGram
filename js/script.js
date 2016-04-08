@@ -61,7 +61,8 @@ $(document).ready(function(){
 			var current = e.target,
 					currentClass = current.className;
 					var test = currentClass.split('').reverse();
-					var firstChar = test[0];
+					var firstChar = parseInt(test[0]);
+					console.log(test);
 			$('.ui.basic.modal').modal('show');
 			$('.dt-picture').addClass('img0'+ firstChar);
 		});
