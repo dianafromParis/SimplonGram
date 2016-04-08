@@ -23,7 +23,25 @@ body {
 	-ms-transform:translate(-50%,-600%);
 	transform: translate(-50%,-600%);    /*( X,Y)   -600% permet de cacher la div*/*/
 }
-
+a.thumbnail:after{
+	display: block;
+	content: ' ';
+	position: absolute;
+	top: 4px;
+	height: 290px;
+	width: 400px;
+	bottom: 0;
+	width: 400px;
+	left: 40px;
+}
+a.thumbnail:hover:after {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width:1300px){
+	a.thumbnail:after {
+		display: none;
+	}
+}
 /*  fond noir */
 /*.dt-modal:before{
 	content:"";
