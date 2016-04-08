@@ -1,0 +1,245 @@
+/*----------- ----------*\
+          Font-face
+\*----------- ----------*/
+@font-face {
+  font-family: 'MasterOfBreak';
+  src: url('../font/master_of_break.otf'),
+       url('../font/master_of_break.ttf');
+}
+
+
+
+
+
+/*----------- ----------*\
+          En-tête
+\*----------- ----------*/
+
+
+header {
+  font-family: 'Source Sans Pro';
+}
+
+/*-- barre de navigation --*/
+
+nav {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.containerOC {
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.wrapOC {
+  margin: 10px 0;
+}
+
+/*Logo Instagram*/
+.typoLogoOC {
+  font-family: 'MasterOfBreak';
+  font-size: 23px;
+  color: #003366;
+}
+
+.typoLogoOC:hover {
+  color: #003366;
+  text-decoration:none;
+}
+
+/*Formulaire: Search*/
+.instaRechercheOC {
+  display: flex;
+  align-items: center;
+}
+
+.instaFormOC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  min-width: 180px;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 50px;
+  padding-left: 10px;
+  color: #b3b3b3;
+}
+
+.instaInputOC {
+  background-color: rgb(250, 250, 250);
+  border: none;
+  border-radius: 50px;
+}
+
+.colorTextOC {
+  margin: 0;
+}
+
+/*Bouton: Get the app*/
+.instaBoutonOC {
+  border: none;
+  border-radius: 50px;
+  padding: 5px 15px;
+  background-color: #0088cc;
+  color: #f2f2f2;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 20px;
+  transition: linear 0.3s;
+}
+
+.instaBoutonOC:hover {
+  background-color: #004466;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+/*Lien: Log in*/
+.instaLogOC {
+  color: #0088cc;
+  font-size: 15px;
+  font-weight: bold;
+  transition: linear 0.3s;
+}
+
+.instaLogOC:hover {
+  color:#004466;
+  text-decoration: none;
+}
+
+/*-- Zone info utilisateur --*/
+
+.instaUtilisateurOC {
+  background-color: #FAFAFA;
+  display: flex;
+}
+
+.instaCenterOC {
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*Image utilisateur*/
+.imageUtilisateurOC {
+  margin-right: 50px;
+}
+
+.imageOC {
+  width: 150px;
+  height: 150px;
+  border: 2px solid rgb(220, 220, 220);
+  border-radius: 100%;
+}
+
+/*Info Utilisateur*/
+.margeOC {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 17px;
+}
+
+.nameOC {
+  display: flex;
+  margin-right: 20px;
+}
+
+.nomUtilisateurOC {
+  margin: 0;
+}
+
+.symbolOC {
+  color: #0088cc;
+}
+
+/*Bouton abonnement*/
+.abonBoutonOC {
+  border: none;
+  border-radius: 10px;
+  background-color: #00cc00;
+  color: #f2f2f2;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-right: 20px;
+  transition: linear 0.3s;
+}
+
+.abonBoutonOC:hover {
+  background-color: #006600;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+/*Lien unique*/
+.lienUniqueOC {
+  color: #0088cc;
+  transition: linear 0.3s;
+}
+
+.lienUniqueOC:hover {
+  color: #004466;
+  text-decoration: none;
+}
+
+/*Autres infos*/
+.infoOC {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+/*---------- ----------*\
+       Media query
+\*---------- ----------*/
+@media screen and (max-width: 760px) {
+  .containerOC {
+    justify-content: center;
+  }
+
+  .imageUtilisateurOC {
+    margin: 10px 0;
+  }
+  
+  .instaInfoOC {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .imageOC {
+    width: 120px;
+    height: 120px;
+  }
+
+  .instaInfoOC {
+    padding: 0 10px;
+  }
+}
+
+
+
+
+/*---------- ----------*\
+       Lié au jQuery
+\*---------- ----------*/
+
+
+/*Formulaire: Search*/
+.appearOC{
+  display: none;
+}

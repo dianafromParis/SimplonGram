@@ -1,0 +1,62 @@
+body {
+
+}
+
+.container {
+	width: 100%;
+	height: 400px;
+	background-color: grey;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.first_calc {
+	width: 400px;
+	height: 300px;
+	background-color: cyan;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.second_calc {
+	width: 400px;
+	height: 300px;
+	background-color: cyan;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+
+.view {
+	min-width: 400px;
+	height: 250px;
+	background-color: orange;
+	overflow: scroll;
+
+}
+
+.name_comm {
+	color: cyan;
+	text-decoration: none;
+}
+
+.commentary {
+	margin-top: 2px;
+	max-width: 375px;
+}
+
+.abonner {
+	width: 100px;
+	height: 45px;
+}
+
+.fa-heart {
+	color: grey;
+}
