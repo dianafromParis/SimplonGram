@@ -1,7 +1,10 @@
 @import "css/diana.css";
 @import "css/jehany.css";
 @import "css/olivier.css";
+body {
+  background-color: #FAFAFA;
 
+}
 * {
   box-sizing: border-box;
   font-family: 'Source Sans Pro', sans-serif;

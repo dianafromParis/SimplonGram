@@ -4,11 +4,12 @@
 img.jkimg {
 	width: 400px;
 	height: 290px;
-	
+
 }
 
 .thumbnail {
 	border: none;
+	background-color: #FAFAFA !important;
 }
 
 img.jkimg:hover{
@@ -18,19 +19,20 @@ img.jkimg:hover{
 
 .container {
 	background-color: #FAFAFA;
+
 	width: 100%;
 	margin:0;
 }
 .row {
 	background-color: #FAFAFA;
-}
 
+}
 .jkbuttonbck {
 	background-color: #FAFAFA;
 }
 
 .jkbutton {
-	
+
 	border:2px solid #4090db;
 	width:120px;
 	height: 120px;
@@ -43,7 +45,7 @@ img.jkimg:hover{
 	line-height: 1.5;
 	margin:0 auto;
 	vertical-align: center;
-		
+
 }
 
 
@@ -61,16 +63,16 @@ img.jkimg:hover{
 
 .jkbutton a:hover {
 	color: #3A6E9F;
-	
+
 }
-	
+
 }
 
 
 /*FOOTER*/
 footer {
-	background-color:#FAFAFA;
-	
+	background-color:#FAFAFA !important;
+
 }
 
 
