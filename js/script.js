@@ -72,4 +72,29 @@ $(document).ready(function(){
 			$('.social-links').toggleClass('is_opened');
 			$(this).toggleClass('rotated');
 		});
+		$('.thumbnail').click(function(e){
+
+            //-- Ce bout de code me permet de récupérer la Classe
+
+            // -- de l'élément cliqué, puis de le split et le reverse,
+
+            // afin de récupérer le premier index
+
+            // ainsi je peux lier le click sur l'élément avec l'ajout de Classe
+
+            // dans la modal box qui permet d'avoir une image correspondante
+
+            var current = e.target,
+
+                    currentClass = current.className;
+
+                    var test = currentClass.split('').reverse();
+
+                    var firstChar = test[0];
+
+            $('.ui.basic.modal').modal('show');
+
+            $('.dt-picture').addClass('img0'+ firstChar);
+
+        });
 });
